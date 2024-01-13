@@ -13,6 +13,7 @@ Our webpage has a client-side, server-side and external integration to HuggingFa
 - API Platform: Postman
 
 ![Structure](structure.jpg){:height="150px"}
+<img src="structure.jpg" alt="Structure" height="150px">
 
 ## Screenshot
 
