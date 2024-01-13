@@ -12,7 +12,6 @@ Our webpage has a client-side, server-side and external integration to HuggingFa
 - Back end: uses Node.js, Express and Hugging Face Inference API.
 - API Platform: Postman
 
-![Structure](structure.jpg){:height="150px"}
 <img src="structure.jpg" alt="Structure" height="550px">
 
 ## Screenshot
