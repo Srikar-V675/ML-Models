@@ -1,0 +1,135 @@
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #0d1117;
+  padding: 20px;
+  text-align: center
+}
+
+h1 {
+  text-align: left;
+  color: #f0f8ff;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+h2 {
+  text-align: center;
+  color: #f0f8ff;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color : #f0f8ff;
+  padding: 16px;
+}
+
+header{
+  /*background-color: #0d1117;*/
+  background: linear-gradient(to right, #184e68, #57ca85);
+  padding: 20px;
+  text-align: left;
+  height: 60px;
+  border-radius: 4px;
+}
+
+.container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.text-box {
+  width: 600px;
+  border-radius: 4px;
+  box-shadow: 0 12px 14px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  /*background-color: #26d99d*/
+  background: linear-gradient(to right, #184e68, #57ca85);
+}
+
+textarea {
+  height: 400px;
+  resize: none;
+  border: none;
+  padding: 20px;
+  margin-bottom: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.submit-button {
+  position: relative;
+  background-color: #0d1117;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 4px;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-bottom: -5px;
+}
+
+.submit-button-text {
+  color: #ffffff;
+  transition: all 0.2s;
+}
+
+.submit-button:disabled{
+  position: relative;
+  background-color: #0d1117;
+  color: #ffffff;
+  opacity: 40%;
+  font-weight: bold;
+  border-radius: 4px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: -5px;
+}
+
+.submit-button--loading .submit-button-text {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.submit-button--loading::after {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border: 4px solid transparent;
+    border-top-color: #ffffff;
+    border-radius: 50%;
+    animation: button-loading-spinner 1s ease infinite;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+@keyframes button-loading-spinner {
+    from {
+        transform: rotate(0turn);
+    }
+
+    to {
+        transform: rotate(1turn);
+    }
+}
