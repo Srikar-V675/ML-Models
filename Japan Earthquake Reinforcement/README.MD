@@ -21,13 +21,13 @@ An examination of earthquake magnitude and severity was conducted. This analysis
 ## Visualisations
 
 - Leveraging Folium's heatmap and polyline features, I created an interactive map illustrating the coincidence between earthquakes and plate boundaries in Japan.
-<img src="q1.jpg" height="550px">
+<img src="q1.jpg" height="350px" width="500">
 - Employing Folium's polyline and Circle functionalities, I visually depicted plate boundaries and their proximity to earthquake depths, offering insights into potential seismic correlations.
-<img src="q2.jpg" height="550px">
+<img src="q2.jpg" height="350px" width="500">
 - Utilizing Folium's chloropleth map, I showcased the population density across different prefectures, providing a clear visualization of densely populated areas.
-<img src="q3.jpg" height="550px">
+<img src="q3.jpg" height="350px" width="500">
 - Combining Folium's chloropleth and Circle features, I mapped population density with markers indicating the magnitude of earthquakes, offering a comprehensive view of seismic activity in relation to population centers.
-<img src="q4.jpg" height="550px">
+<img src="q4.jpg" height="350px" width="500">
 
 
 ## Data Source
