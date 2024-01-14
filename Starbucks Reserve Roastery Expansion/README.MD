@@ -8,6 +8,14 @@ Assumming I'm a Starbucks Big Data Analyst, the goal of this project is to ident
 
 We utilized Starbucks store location data and demographic information for counties in California from **Kaggle**. Geocoding was performed using Nominatim to fill in missing store locations based on their addresses.
 
+# function to get latitude and longitude from an address
+def my_geocoder(row):
+    try:
+        point = geolocator.geocode(row).point
+        return pd.Series({'Longitude': point.longitude, 'Latitude': point.latitude})
+    except:
+        return None
+
 ## County Selection Criteria
 
 ### Mandatory Criteria:
