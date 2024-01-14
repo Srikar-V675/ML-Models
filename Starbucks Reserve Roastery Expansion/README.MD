@@ -40,6 +40,8 @@ Successfully identified a total of 1043 potential Starbucks store locations acro
 - San Diego: 289 stores.
 - San Francisco: 87 stores.
 
+<img src="q1.jpg" height="350px" width="650">
+
 ## Conclusion and Recommendations
 
 Considering the criteria and insights gained from the analysis, the following counties stand out as promising for the next Starbucks Reserve Roastery location:
