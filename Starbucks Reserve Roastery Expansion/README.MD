@@ -40,7 +40,7 @@ Successfully identified a total of 1043 potential Starbucks store locations acro
 - San Diego: 289 stores.
 - San Francisco: 87 stores.
 
-<img src="q1.jpg" height="350px" width="650">
+<img src="q2.jpg" height="350px" width="650">
 
 ## Conclusion and Recommendations
 
