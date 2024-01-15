@@ -10,19 +10,19 @@ The project utilizes motor vehicle collision data sourced from Kaggle, tracking 
 
 ## Visualizations
 
-**Collision Data Visualization**
+**1. Collision Data Visualization**
 
 Visualized motor vehicle collision data on an interactive map using the latitude and longitude information. Each marker represents a collision incident.
 
-**Hospital Location Visualization**
+**2. Hospital Location Visualization**
 
 Mapped existing hospital locations using latitude and longitude information.
 
-**Hospital Coverage and Collisions Heatmap**
+**3. Hospital Coverage and Collisions Heatmap**
 
 Visualized hospital coverage areas and collisions occurring more than 10 kilometers away from the closest hospital using GeoJson, HeatMap, and LatLngPopup.
 
-**New Hospital Placement Visualization**
+**4. New Hospital Placement Visualization**
 
 Utilized the new_hospital function to visualize proposed hospital locations, coverage, and the corresponding heatmap.
 
