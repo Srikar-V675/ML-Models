@@ -73,6 +73,13 @@ def new_hospital(lat_1, long_1, lat_2, long_2):
     display(embed_map(m, 'q_6.html'))
 ```
 
+## Python Libraries used
+
+- Geopandas: Geopandas is a Python library extending Pandas to handle geospatial data, providing data structures and spatial operations for efficient geospatial analysis.
+- Folium: Folium is a Python library that simplifies the creation of interactive Leaflet maps for visualizing geospatial data in web applications.
+- Pandas
+- shapely: shapely is a Python library for geometric operations and manipulations, particularly useful for working with spatial data.
+
 ## Conclusion
 
 By strategically placing two new hospitals at the proposed locations, the project aims to significantly reduce the percentage of collisions occurring more than 10 kilometers away from the closest hospital. This proactive approach emphasizes the potential to save lives by improving emergency response times. The data-driven analysis spans from 2013 to 2018, providing valuable insights for optimizing healthcare services in New York City.
