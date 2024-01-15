@@ -50,6 +50,12 @@ Successfully identified a total of 1043 potential Starbucks store locations acro
 
 <img src="q2.jpg" height="350px" width="650">
 
+## Python Libraries used
+
+- Geopandas: Geopandas is a Python library extending Pandas to handle geospatial data, providing data structures and spatial operations for efficient geospatial analysis.
+- Folium: Folium is a Python library that simplifies the creation of interactive Leaflet maps for visualizing geospatial data in web applications.
+- Pandas
+
 ## Conclusion and Recommendations
 
 Considering the criteria and insights gained from the analysis, the following counties stand out as promising for the next Starbucks Reserve Roastery location:
