@@ -43,6 +43,8 @@ def popularity_recommender(genre, threshold, nums):
     return result
 ```
 
+<img src="ss_1.jpg" height="350px" width="650">
+
 ### 2. search_title
 - description: searches for similar titles based on input using cosine similarity between the TF-IDF matrix and the input title
 - params:
