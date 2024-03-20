@@ -129,4 +129,4 @@ def item_collaborative_recommender(movie_id, nums):
     return rec_percentages.head(nums).merge(movies_new, left_index=True, right_on="movieId")[["title","genres","score"]]
 ```
 
-<img src="Screenshots/ss_1\5.jpg" height="350px" width="650">
+<img src="Screenshots/ss_5.jpg" height="350px" width="650">
