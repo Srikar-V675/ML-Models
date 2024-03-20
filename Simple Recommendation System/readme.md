@@ -24,3 +24,9 @@ This repository contains a simple movie recommender system implemented using dif
 - The data consists of 105339 ratings applied over 10329 movies. The average rating is 3.5 and minimum and maximum rating is 0.5 and 5 respectively. There are 668 user who has given their ratings for 149532 movies.
 
 Link: [Dataset Link Kaggle](https://www.kaggle.com/datasets/ayushimishra2809/movielens-dataset?resource=download)
+
+## Code
+
+### popularity_recommender
+- params:
+  - one  
