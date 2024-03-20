@@ -78,7 +78,7 @@ def content_recommender(movie_id, nums):
     return similar_movies[['Clean Title', 'genres', 'score']]
 ```
 
-<img src="Screenshots/ss_3.jpg" height="350px" width="650">
+<img src="Screenshots/ss_3.jpg" height="450px" width="650">
 
 ### 4. user_collaborative_recommender
 - description: generates recommendations based on the similarity of the users calculated by their movie ratings
@@ -129,4 +129,4 @@ def item_collaborative_recommender(movie_id, nums):
     return rec_percentages.head(nums).merge(movies_new, left_index=True, right_on="movieId")[["title","genres","score"]]
 ```
 
-<img src="Screenshots/ss_5.jpg" height="350px" width="650">
+<img src="Screenshots/ss_5.jpg" height="450px" width="750">
