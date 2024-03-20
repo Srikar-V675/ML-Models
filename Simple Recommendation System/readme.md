@@ -61,6 +61,8 @@ def search_title(title):
     return results
 ```
 
+<img src="Screenshots/ss_2.jpg" height="350px" width="650">
+
 ### 3. content_recommender
 - description: generates recommendations based on the similarity of the movie's genres with input movie genre
 - params:
@@ -75,6 +77,8 @@ def content_recommender(movie_id, nums):
     similar_movies["score"] = movies_similarity[movie_id][similar_movies_indices] # getting the movie scores from the indices
     return similar_movies[['Clean Title', 'genres', 'score']]
 ```
+
+<img src="Screenshots/ss_3.jpg" height="350px" width="650">
 
 ### 4. user_collaborative_recommender
 - description: generates recommendations based on the similarity of the users calculated by their movie ratings
@@ -94,6 +98,8 @@ def user_collaborative_recommender(user_index,top_n):
     recommendations['Avg Rating'] = average_mov_rating[top_n_indices].tolist()  # add the average rating of the movies to the recommendations
     return recommendations
 ```
+
+<img src="Screenshots/ss_4.jpg" height="350px" width="650">
 
 ### 5. item_collaborative_recommender
 - description: generates recommendations using item-based collaborative filtering by identifying similar users and selecting movies watched by them
@@ -122,3 +128,5 @@ def item_collaborative_recommender(movie_id, nums):
     
     return rec_percentages.head(nums).merge(movies_new, left_index=True, right_on="movieId")[["title","genres","score"]]
 ```
+
+<img src="Screenshots/ss_1\5.jpg" height="350px" width="650">
