@@ -1,6 +1,7 @@
 # Simple Movie Recommender System
 
 This repository contains a simple movie recommender system implemented using different approaches, including popularity-based, content-based, user-based collaborative filtering, and item-based collaborative filtering. The system utilizes cosine similarities to make recommendations.
+<be>
 <br>
 ## Approaches Implemented
 
