@@ -27,6 +27,17 @@ Link: [Dataset Link Kaggle](https://www.kaggle.com/datasets/ayushimishra2809/mov
 
 ## Code
 
-### popularity_recommender
+### 1. popularity_recommender
 - params:
-  - one  
+  - genre - specific genre
+  - threshold - min. number of reviews
+  - nums - number of recommendations
+- returns: Dataframe with recommendations
+
+```python
+def popularity_recommender(genre, threshold, nums):
+    result = popularity[popularity[genre] == 1]  # filter movies with the given genre
+    result = result[result['Number of Reviews'] > threshold]  # filter movies with a minimum number of reviews
+    result = result.sort_values(by='Average Movie Rating', ascending=False)[:nums]  # sort movies by average rating and select top n
+    return result
+```
